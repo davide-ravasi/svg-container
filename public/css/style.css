@@ -1,0 +1,155 @@
+body, h1, .h2, .h3, .h4, .h5, .h6, .p, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Oxygen', sans-serif;
+}
+h1 {
+    font-size: 2.3rem;
+    color: #1565c0;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #2196f3;
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: #1b5e20;
+}
+
+.admin h1, h2 {
+    color : #009688;
+}
+
+/* navbar */
+.navbar-nav.mr-auto,
+.navbar-nav.ml-auto {
+    padding-top: 12px;
+}
+.navbar-dark .navbar-text {
+    color: #fff;
+}
+nav ul:not(.browser-default)>li {
+    padding-right: 6px;
+}
+.form-control[name=search] {
+    color: #bbb;
+}
+
+/* home elements */
+.jumbotron {
+    margin: 5px;
+    padding: 4px;
+}
+.jumbotron h1 {
+    margin-top: 10px;
+}
+.home_list_cat a {
+    margin-right: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+/* show element */
+.box_big_post .link-addwishlist {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+.box_big_post .link-addwishlist i {
+    line-height: 40px;
+    font-size: 1.8rem;
+}
+.box_big_post .btn_download {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+.show_image {
+    display: block !important;
+    margin-bottom: 10px;    
+}
+
+/* box post home */
+.card_text {
+    margin-bottom: 20px;
+}
+.card-footer {
+    padding-top: 15px !important;
+    margin-top: 15px !important;
+}
+.badge.cat_link {
+    display: block;
+    margin: 0;
+    float: none;
+    margin-bottom: 0;
+    background-color: #ababab;
+    margin-top: 5px;
+}
+.badge.cat_link a {
+    color: #fff;
+}
+.btn_download {
+    margin-left: 5px;
+    position: absolute;
+    right: 40px;
+    bottom: -31px;
+}
+.btn_show {
+    position: absolute;
+    right: 0px;
+    bottom: -31px;
+}
+
+/* show post admin */
+.box_big_post .btn_delete {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+.box_big_post .btn_modify {
+    position: absolute;
+    bottom: 25px;
+    right: 65px;
+}
+/* box post admin */
+.box_post_admin .btn_edit_post_admin {
+    position: absolute;
+    top: -10px;
+    left: -5px;   
+}
+/* wishlist */
+.link-addwishlist {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.link-addwishlist i {
+    color: #2962ff;
+}
+/* overload with green lime */
+.link-addwishlist i {
+    color: #43a047;
+}
+
+.blue.darken-1 {
+    background-color: #c0ca33 !important;
+}
+
+.blue.darken-3 {
+    background-color: #43a047 !important;
+}
+
+.badge.blue.darken-1 {
+    font-size: 95%;
+    background-color: #00796b !important;
+}
+
+.badge.new_post {
+    position: absolute;
+    right: -15px;
+    top: 10px;
+    width: 50px;
+    color: #fff;
+    background-color: #dd4b39;
+}
